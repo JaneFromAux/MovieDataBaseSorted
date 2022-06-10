@@ -3,7 +3,7 @@ import MovieItems from './MovieItems';
 
 const Movies = () => {
     return (
-        <div>
+        <div className='wrapper'>
             {data.map((ele, i) =>
                 <MovieItems
                     key={i}

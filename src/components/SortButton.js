@@ -55,14 +55,13 @@ const SortButton = () => {
 
     return (
         <section>
-            <div>
+            <div className="buttonWrap">
                 <button onClick={sortDateAs}>Sort by Date Ascending</button>
                 <button onClick={sortDateDs}>Sort by Date Descending</button>
                 <button onClick={sortAlphaAZ}>A-Z</button>
                 <button onClick={sortAlphsZA}>Z-A</button>
                 <button onClick={sortBestRate}>Best Rate</button>
                 <button onClick={sortGenre}>Genre</button>
-
             </div >
             <div>
                 {movies.map((ele, i) =>
